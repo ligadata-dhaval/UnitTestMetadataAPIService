@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="unittestmetadataapiservice"
+		module="unittestmetadataapiservice$sources_javadoc_2.10"
+		revision="0.1"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150618124218"/>
+	<dependencies>
+		<module organisation="org.scalatest" name="scalatest_2.10">
+			<revision name="2.0" status="release" pubdate="20131031091328" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="29">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6568" time="0" location="/Users/dhaval/.ivy2/cache/org.scalatest/scalatest_2.10/ivy-2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.0" rev-constraint-default="2.0" rev-constraint-dynamic="2.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalatest_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="342" time="0" location="/Users/dhaval/.ivy2/cache/org.scalatest/scalatest_2.10/docs/scalatest_2.10-2.0-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="scalatest_2.10" type="jar" ext="jar" status="no" details="" size="7158439" time="0" location="/Users/dhaval/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-2.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0.jar"/>
+					</artifact>
+					<artifact name="scalatest_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1388205" time="0" location="/Users/dhaval/.ivy2/cache/org.scalatest/scalatest_2.10/srcs/scalatest_2.10-2.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0/scalatest_2.10-2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder.dispatch" name="dispatch-core_2.10">
+			<revision name="0.11.0" status="release" pubdate="20130723194351" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dispatch.databinder.net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="27">
+				<license name="LGPL v3" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2827" time="0" location="/Users/dhaval/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/ivy-0.11.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.10/0.11.0/dispatch-core_2.10-0.11.0.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="0.11.0" rev-constraint-default="0.11.0" rev-constraint-dynamic="0.11.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="dispatch-core_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="558180" time="0" location="/Users/dhaval/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/docs/dispatch-core_2.10-0.11.0-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.10/0.11.0/dispatch-core_2.10-0.11.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="dispatch-core_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14637" time="0" location="/Users/dhaval/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/srcs/dispatch-core_2.10-0.11.0-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.10/0.11.0/dispatch-core_2.10-0.11.0-sources.jar"/>
+					</artifact>
+					<artifact name="dispatch-core_2.10" type="jar" ext="jar" status="no" details="" size="250506" time="0" location="/Users/dhaval/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.10/jars/dispatch-core_2.10-0.11.0.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.10/0.11.0/dispatch-core_2.10-0.11.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ning" name="async-http-client">
+			<revision name="1.7.16" status="release" pubdate="20130520114045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/AsyncHttpClient/async-http-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="28">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="6840" time="0" location="/Users/dhaval/.ivy2/cache/com.ning/async-http-client/ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.16/async-http-client-1.7.16.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.7.16" rev-constraint-default="1.7.16" rev-constraint-dynamic="1.7.16" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="async-http-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="294384" time="0" location="/Users/dhaval/.ivy2/cache/com.ning/async-http-client/srcs/async-http-client-1.7.16-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.16/async-http-client-1.7.16-sources.jar"/>
+					</artifact>
+					<artifact name="async-http-client" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1159282" time="0" location="/Users/dhaval/.ivy2/cache/com.ning/async-http-client/docs/async-http-client-1.7.16-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.16/async-http-client-1.7.16-javadoc.jar"/>
+					</artifact>
+					<artifact name="async-http-client" type="jar" ext="jar" status="no" details="" size="496797" time="0" location="/Users/dhaval/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.7.16.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.7.16/async-http-client-1.7.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.dreamhead" name="moco-core">
+			<revision name="0.7" status="release" pubdate="20130501015207" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/dreamhead/moco" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="20">
+				<license name="MIT Licence" url="https://raw.github.com/dreamhead/moco/master/MIT-LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3848" time="0" location="/Users/dhaval/.ivy2/cache/com.github.dreamhead/moco-core/ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/github/dreamhead/moco-core/0.7/moco-core-0.7.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="moco-core" type="jar" ext="jar" status="no" details="" size="61940" time="0" location="/Users/dhaval/.ivy2/cache/com.github.dreamhead/moco-core/jars/moco-core-0.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/github/dreamhead/moco-core/0.7/moco-core-0.7.jar"/>
+					</artifact>
+					<artifact name="moco-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="207317" time="0" location="/Users/dhaval/.ivy2/cache/com.github.dreamhead/moco-core/docs/moco-core-0.7-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/github/dreamhead/moco-core/0.7/moco-core-0.7-javadoc.jar"/>
+					</artifact>
+					<artifact name="moco-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="34676" time="0" location="/Users/dhaval/.ivy2/cache/com.github.dreamhead/moco-core/srcs/moco-core-0.7-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/github/dreamhead/moco-core/0.7/moco-core-0.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120612152206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="24">
+				<metadata-artifact status="no" details="" size="8457" time="0" location="/Users/dhaval/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="246635" time="0" location="/Users/dhaval/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.4-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"/>
+					</artifact>
+					<artifact name="commons-io" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="724124" time="0" location="/Users/dhaval/.ivy2/cache/commons-io/commons-io/docs/commons-io-2.4-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="/Users/dhaval/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="14.0.1" status="release" pubdate="20130314165719" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="23">
+				<metadata-artifact status="no" details="" size="3651" time="0" location="/Users/dhaval/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="guava" type="jar" ext="jar" status="no" details="" size="2189117" time="0" location="/Users/dhaval/.ivy2/cache/com.google.guava/guava/jars/guava-14.0.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.jar"/>
+					</artifact>
+					<artifact name="guava" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4750302" time="0" location="/Users/dhaval/.ivy2/cache/com.google.guava/guava/docs/guava-14.0.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1170076" time="0" location="/Users/dhaval/.ivy2/cache/com.google.guava/guava/srcs/guava-14.0.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.5" status="release" pubdate="20130325135215" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="22">
+				<metadata-artifact status="no" details="" size="4469" time="0" location="/Users/dhaval/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="183075" time="0" location="/Users/dhaval/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.5-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5-javadoc.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47186" time="0" location="/Users/dhaval/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.5-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26084" time="0" location="/Users/dhaval/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.0.11" status="release" pubdate="20130325080238" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="25">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10010" time="0" location="/Users/dhaval/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.0.11.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.11/logback-classic-1.0.11.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.0.11" rev-constraint-default="1.0.11" rev-constraint-dynamic="1.0.11" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="255724" time="0" location="/Users/dhaval/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.11.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.11/logback-classic-1.0.11.jar"/>
+					</artifact>
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="204416" time="0" location="/Users/dhaval/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.0.11-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.11/logback-classic-1.0.11-sources.jar"/>
+					</artifact>
+					<artifact name="logback-classic" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="946567" time="0" location="/Users/dhaval/.ivy2/cache/ch.qos.logback/logback-classic/docs/logback-classic-1.0.11-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.0.11/logback-classic-1.0.11-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.0.11" status="release" pubdate="20130325080207" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logback.qos.ch" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="26">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="9500" time="0" location="/Users/dhaval/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.0.11.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.11/logback-core-1.0.11.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.0.11" rev-constraint-default="1.0.11" rev-constraint-dynamic="1.0.11" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="310284" time="0" location="/Users/dhaval/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.0.11-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.11/logback-core-1.0.11-sources.jar"/>
+					</artifact>
+					<artifact name="logback-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1600297" time="0" location="/Users/dhaval/.ivy2/cache/ch.qos.logback/logback-core/docs/logback-core-1.0.11-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.11/logback-core-1.0.11-javadoc.jar"/>
+					</artifact>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="370077" time="0" location="/Users/dhaval/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.11.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.0.11/logback-core-1.0.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.6.5.Final" status="release" pubdate="20130409012612" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="21">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6425" time="0" location="/Users/dhaval/.ivy2/cache/io.netty/netty/ivy-3.6.5.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.6.5.Final/netty-3.6.5.Final.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="3.6.5.Final" rev-constraint-default="3.6.5.Final" rev-constraint-dynamic="3.6.5.Final" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1205075" time="0" location="/Users/dhaval/.ivy2/cache/io.netty/netty/jars/netty-3.6.5.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.6.5.Final/netty-3.6.5.Final.jar"/>
+					</artifact>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1064607" time="0" location="/Users/dhaval/.ivy2/cache/io.netty/netty/srcs/netty-3.6.5.Final-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.6.5.Final/netty-3.6.5.Final-sources.jar"/>
+					</artifact>
+					<artifact name="netty" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="10815806" time="0" location="/Users/dhaval/.ivy2/cache/io.netty/netty/docs/netty-3.6.5.Final-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.6.5.Final/netty-3.6.5.Final-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.pegdown" name="pegdown">
+			<revision name="1.4.2" status="release" pubdate="20131209013711" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pegdown.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="13">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2771" time="0" location="/Users/dhaval/.ivy2/cache/org.pegdown/pegdown/ivy-1.4.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/pegdown/pegdown/1.4.2/pegdown-1.4.2.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.4.2" rev-constraint-default="1.4.2" rev-constraint-dynamic="1.4.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="pegdown" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="205839" time="0" location="/Users/dhaval/.ivy2/cache/org.pegdown/pegdown/docs/pegdown-1.4.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/pegdown/pegdown/1.4.2/pegdown-1.4.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="pegdown" type="jar" ext="jar" status="no" details="" size="67451" time="0" location="/Users/dhaval/.ivy2/cache/org.pegdown/pegdown/jars/pegdown-1.4.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/pegdown/pegdown/1.4.2/pegdown-1.4.2.jar"/>
+					</artifact>
+					<artifact name="pegdown" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="56230" time="0" location="/Users/dhaval/.ivy2/cache/org.pegdown/pegdown/srcs/pegdown-1.4.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/pegdown/pegdown/1.4.2/pegdown-1.4.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-java">
+			<revision name="1.1.6" status="release" pubdate="20130822083228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="14">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3313" time="0" location="/Users/dhaval/.ivy2/cache/org.parboiled/parboiled-java/ivy-1.1.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.6/parboiled-java-1.1.6.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.1.6" rev-constraint-default="1.1.6" rev-constraint-dynamic="1.1.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="parboiled-java" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="112408" time="0" location="/Users/dhaval/.ivy2/cache/org.parboiled/parboiled-java/docs/parboiled-java-1.1.6-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.6/parboiled-java-1.1.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="parboiled-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="72598" time="0" location="/Users/dhaval/.ivy2/cache/org.parboiled/parboiled-java/srcs/parboiled-java-1.1.6-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.6/parboiled-java-1.1.6-sources.jar"/>
+					</artifact>
+					<artifact name="parboiled-java" type="jar" ext="jar" status="no" details="" size="83772" time="0" location="/Users/dhaval/.ivy2/cache/org.parboiled/parboiled-java/jars/parboiled-java-1.1.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.6/parboiled-java-1.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-util">
+			<revision name="4.1" status="release" pubdate="20121014083900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="19">
+				<metadata-artifact status="no" details="" size="4374" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm-util/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="asm-util" type="jar" ext="jar" status="no" details="" size="37599" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm-util/jars/asm-util-4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1.jar"/>
+					</artifact>
+					<artifact name="asm-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="983980" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm-util/srcs/asm-util-4.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1-sources.jar"/>
+					</artifact>
+					<artifact name="asm-util" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1518830" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm-util/docs/asm-util-4.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-analysis">
+			<revision name="4.1" status="release" pubdate="20121014083804" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="18">
+				<metadata-artifact status="no" details="" size="4382" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm-analysis/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="asm-analysis" type="jar" ext="jar" status="no" details="" size="19812" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm-analysis/jars/asm-analysis-4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.jar"/>
+					</artifact>
+					<artifact name="asm-analysis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="983980" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm-analysis/srcs/asm-analysis-4.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1-sources.jar"/>
+					</artifact>
+					<artifact name="asm-analysis" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1518830" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm-analysis/docs/asm-analysis-4.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-tree">
+			<revision name="4.1" status="release" pubdate="20121014083839" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="17">
+				<metadata-artifact status="no" details="" size="4369" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm-tree/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="asm-tree" type="jar" ext="jar" status="no" details="" size="22162" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.jar"/>
+					</artifact>
+					<artifact name="asm-tree" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="983980" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm-tree/srcs/asm-tree-4.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1-sources.jar"/>
+					</artifact>
+					<artifact name="asm-tree" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1518830" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm-tree/docs/asm-tree-4.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="4.1" status="release" pubdate="20121014083745" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="16">
+				<metadata-artifact status="no" details="" size="3744" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm/ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="983980" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm/srcs/asm-4.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1-sources.jar"/>
+					</artifact>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="47359" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm/jars/asm-4.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.jar"/>
+					</artifact>
+					<artifact name="asm" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1518830" time="0" location="/Users/dhaval/.ivy2/cache/org.ow2.asm/asm/docs/asm-4.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-core">
+			<revision name="1.1.6" status="release" pubdate="20130822083221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="15">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2654" time="0" location="/Users/dhaval/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.1.6" rev-constraint-default="1.1.6" rev-constraint-dynamic="1.1.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="parboiled-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="166648" time="0" location="/Users/dhaval/.ivy2/cache/org.parboiled/parboiled-core/srcs/parboiled-core-1.1.6-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6-sources.jar"/>
+					</artifact>
+					<artifact name="parboiled-core" type="jar" ext="jar" status="no" details="" size="187091" time="0" location="/Users/dhaval/.ivy2/cache/org.parboiled/parboiled-core/jars/parboiled-core-1.1.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.jar"/>
+					</artifact>
+					<artifact name="parboiled-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="457802" time="0" location="/Users/dhaval/.ivy2/cache/org.parboiled/parboiled-core/docs/parboiled-core-1.1.6-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-json_2.10">
+			<revision name="2.2.1" status="release" pubdate="20150617095959" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<metadata-artifact status="no" details="" size="3694" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe.play/play-json_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.1/play-json_2.10-2.2.1.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="play-json_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27779" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe.play/play-json_2.10/srcs/play-json_2.10-2.2.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.1/play-json_2.10-2.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="play-json_2.10" type="jar" ext="jar" status="no" details="" size="627243" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe.play/play-json_2.10/jars/play-json_2.10-2.2.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-json_2.10/2.2.1/play-json_2.10-2.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.2" status="release" pubdate="20130606110608" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.2/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="12">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2647" time="0" location="/Users/dhaval/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.2/scala-reflect-2.10.2.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.10.2/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="429994" time="0" location="/Users/dhaval/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.10.2-sources.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3171168" time="0" location="/Users/dhaval/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.2.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+					<artifact name="scala-reflect" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="33909258" time="0" location="/Users/dhaval/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.10.2-javadoc.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.2.2" status="release" pubdate="20130526222630" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="11">
+				<metadata-artifact status="no" details="" size="6918" time="0" location="/Users/dhaval/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3868527" time="0" location="/Users/dhaval/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/docs/jackson-databind-2.2.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="jackson-databind" type="jar" ext="jar" status="no" details="" size="866104" time="0" location="/Users/dhaval/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/jars/jackson-databind-2.2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2.jar"/>
+					</artifact>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="708208" time="0" location="/Users/dhaval/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.2.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.2/jackson-databind-2.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.2.2" status="release" pubdate="20130526222000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="10">
+				<metadata-artifact status="no" details="" size="5227" time="0" location="/Users/dhaval/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="191738" time="0" location="/Users/dhaval/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2.jar"/>
+					</artifact>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="218096" time="0" location="/Users/dhaval/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.2.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2-sources.jar"/>
+					</artifact>
+					<artifact name="jackson-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="776182" time="0" location="/Users/dhaval/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/docs/jackson-core-2.2.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.2.2/jackson-core-2.2.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.2.2" status="release" pubdate="20130526212903" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="9">
+				<metadata-artifact status="no" details="" size="4639" time="0" location="/Users/dhaval/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="251273" time="0" location="/Users/dhaval/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/docs/jackson-annotations-2.2.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="no" details="" size="33491" time="0" location="/Users/dhaval/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/jars/jackson-annotations-2.2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2.jar"/>
+					</artifact>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="38691" time="0" location="/Users/dhaval/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.2.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.2/jackson-annotations-2.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.3.1" status="release" pubdate="20130308024551" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="8">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3213" time="0" location="/Users/dhaval/.ivy2/cache/org.joda/joda-convert/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/joda/joda-convert/1.3.1/joda-convert-1.3.1.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="40544" time="0" location="/Users/dhaval/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.3.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/joda/joda-convert/1.3.1/joda-convert-1.3.1.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19611" time="0" location="/Users/dhaval/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.3.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/joda/joda-convert/1.3.1/joda-convert-1.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="60163" time="0" location="/Users/dhaval/.ivy2/cache/org.joda/joda-convert/docs/joda-convert-1.3.1-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/joda/joda-convert/1.3.1/joda-convert-1.3.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.2" status="release" pubdate="20130308062346" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-time.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="7">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3409" time="0" location="/Users/dhaval/.ivy2/cache/joda-time/joda-time/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/joda-time/joda-time/2.2/joda-time-2.2.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="573912" time="0" location="/Users/dhaval/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/2.2/joda-time-2.2.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2551939" time="0" location="/Users/dhaval/.ivy2/cache/joda-time/joda-time/docs/joda-time-2.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/2.2/joda-time-2.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="711916" time="0" location="/Users/dhaval/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/joda-time/joda-time/2.2/joda-time-2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-datacommons_2.10">
+			<revision name="2.2.1" status="release" pubdate="20150421090305" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<metadata-artifact status="no" details="" size="2428" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe.play/play-datacommons_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.1/play-datacommons_2.10-2.2.1.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="play-datacommons_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1355" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe.play/play-datacommons_2.10/srcs/play-datacommons_2.10-2.2.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.1/play-datacommons_2.10-2.2.1-sources.jar"/>
+					</artifact>
+					<artifact name="play-datacommons_2.10" type="jar" ext="jar" status="no" details="" size="5198" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe.play/play-datacommons_2.10/jars/play-datacommons_2.10-2.2.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-datacommons_2.10/2.2.1/play-datacommons_2.10-2.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-functional_2.10">
+			<revision name="2.2.1" status="release" pubdate="20150617100004" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<metadata-artifact status="no" details="" size="2425" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe.play/play-functional_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.1/play-functional_2.10-2.2.1.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="play-functional_2.10" type="jar" ext="jar" status="no" details="" size="366840" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe.play/play-functional_2.10/jars/play-functional_2.10-2.2.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.1/play-functional_2.10-2.2.1.jar"/>
+					</artifact>
+					<artifact name="play-functional_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9027" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe.play/play-functional_2.10/srcs/play-functional_2.10-2.2.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-functional_2.10/2.2.1/play-functional_2.10-2.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.2" status="release" pubdate="20130606110543" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.2/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/Users/dhaval/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.10.2/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7121818" time="0" location="/Users/dhaval/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.2.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1058962" time="0" location="/Users/dhaval/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.2-sources.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="33909258" time="0" location="/Users/dhaval/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.10.2-javadoc.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-iteratees_2.10">
+			<revision name="2.2.1" status="release" pubdate="20150617100001" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<metadata-artifact status="no" details="" size="2661" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe.play/play-iteratees_2.10/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.1/play-iteratees_2.10-2.2.1.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="play-iteratees_2.10" type="jar" ext="jar" status="no" details="" size="716463" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe.play/play-iteratees_2.10/jars/play-iteratees_2.10-2.2.1.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.1/play-iteratees_2.10-2.2.1.jar"/>
+					</artifact>
+					<artifact name="play-iteratees_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="29398" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe.play/play-iteratees_2.10/srcs/play-iteratees_2.10-2.2.1-sources.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-iteratees_2.10/2.2.1/play-iteratees_2.10-2.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.0.2" status="release" pubdate="20130703060814" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2723" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe/config/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.2/config-1.0.2.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="config" type="jar" ext="jar" status="no" details="" size="187497" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe/config/jars/config-1.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.2/config-1.0.2.jar"/>
+					</artifact>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="126063" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe/config/srcs/config-1.0.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.2/config-1.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="config" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="160436" time="0" location="/Users/dhaval/.ivy2/cache/com.typesafe/config/docs/config-1.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.0.2/config-1.0.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-stm" name="scala-stm_2.10">
+			<revision name="0.7" status="release" pubdate="20121221193826" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nbronson.github.com/scala-stm/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<license name="BSD" url="https://github.com/nbronson/scala-stm/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2531" time="0" location="/Users/dhaval/.ivy2/cache/org.scala-stm/scala-stm_2.10/ivy-0.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom"/>
+				<caller organisation="unittestmetadataapiservice" name="unittestmetadataapiservice$sources_javadoc_2.10" conf="optional, compile, provided, compile-internal" rev="0.7" rev-constraint-default="0.7" rev-constraint-dynamic="0.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-stm_2.10" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="937426" time="0" location="/Users/dhaval/.ivy2/cache/org.scala-stm/scala-stm_2.10/docs/scala-stm_2.10-0.7-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-stm_2.10" type="jar" ext="jar" status="no" details="" size="650514" time="0" location="/Users/dhaval/.ivy2/cache/org.scala-stm/scala-stm_2.10/jars/scala-stm_2.10-0.7.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar"/>
+					</artifact>
+					<artifact name="scala-stm_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116136" time="0" location="/Users/dhaval/.ivy2/cache/org.scala-stm/scala-stm_2.10/srcs/scala-stm_2.10-0.7-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
