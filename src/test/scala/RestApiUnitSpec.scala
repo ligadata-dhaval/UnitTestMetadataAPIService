@@ -1,21 +1,26 @@
+import java.io.File
+
 import dispatch._, Defaults._
 
 /**
  * Unit spec
  *
- * Created by ejunxsh on 4/2/14.
+ * Created by dhaval kolapkar.
+ *
+ * CRUD operations on message, container, model, function, type, concept, or configuration.
  */
 class RestApiUnitSpec extends UnitSpec {
-  //val service = moocoo(3000)
 
   describe("A metadata API service for CRUD operations on messages") {
-    //val host = :/("localhost",8081).secure
-    val host = :/("demo1319324.mockable.io")
+    val host = :/("localhost",8081).secure
+    //val host = :/("demo1319324.mockable.io")
 
     it("should upload a new message object to the metadata server (C)") {
-      val request=host / "api" /"keys"/"message"
-      whenReady(http(request)) {
-        result => result.getStatusCode should be (200)
+      val request=host / "api"/"message"
+      val uri=getClass.getResource("/message/HelloWorld_Msg_Def.json").toURI
+      val body: java.io.File=new File(uri)
+      whenReady(http(request.POST <<< body  OK dsl.asJson )) {
+        json => (json \ "APIResults" \ "Result Description").as[String] should include regex ("Message Added Successfully*"  )
       }
     }
 
@@ -26,7 +31,6 @@ class RestApiUnitSpec extends UnitSpec {
           (json \ "APIResults" \ "Result Description").as[String] should be ("Successfully fetched all object keys")
       }
     }
-
   }
 
 }
